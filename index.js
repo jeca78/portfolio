@@ -1,8 +1,8 @@
 /*-----------------------------------------------------------------------------
   REQUIRE
 -----------------------------------------------------------------------------*/
-var yo = require('yo-yo')
-var csjs = require('csjs-inject')
+var yo      = require('yo-yo')
+var csjs    = require('csjs-inject')
 var minixhr = require('minixhr')
 
 /*-----------------------------------------------------------------------------
@@ -142,13 +142,13 @@ function template (data) {
     }
     .portfolioTitle {
       margin               : 2em;
-      padding		   : 0.5em;
-      font-size		   : 3em;
-      color		   : ${DARKBLUE};
+      padding		           : 0.5em;
+      font-size		         : 3em;
+      color		             : ${DARKBLUE};
       background-color     : ${LIGHTBLUE};
       border-radius        : 4px;
       border               : 4px solid ${DARKBLUE};
-      transition	   : 2s;
+      transition	         : 2s;
     }
     .portfolioTitle_isHover {
       margin               : 2em 2em 2em 1.5em;
@@ -161,11 +161,11 @@ function template (data) {
       transition           : 2s;
     }
     .portfolioBody {
-      margin		   : 0 40% 0 0em;
-      text-align 	   : left;
-      font-size		   : 1.2em;
-      color		   : ${BLACK};
-      transition	   : 2s;
+      margin		           : 0 40% 0 0em;
+      text-align 	         : left;
+      font-size		         : 1.2em;
+      color		             : ${BLACK};
+      transition	         : 2s;
     }
      .portfolioBody_isHover {
       margin               : 0 35% 0 4em;
@@ -220,7 +220,7 @@ function template (data) {
     yo.update(element, newElement)
   }
   function unhoverPortfolio() {
-    var element = this
+    var element    = this
     var newElement = template()
     yo.update(element, newElement)
    }
