@@ -225,7 +225,7 @@ function template (data) {
     yo.update(element, newElement)
    }
    function openNewTab(){
-    var url = ""
+    var url = "https://jeca78.github.io/quiz/"
     var win = window.open(url,'_blank');
     win.focus();
    }
